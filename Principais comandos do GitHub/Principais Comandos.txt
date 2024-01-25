@@ -1,1 +1,44 @@
-Esta pasta ainda está vazia... Subindo commit
+O Git é um sistema de controle de versão distribuído amplamente utilizado para rastrear alterações em projetos de software. Aqui estão alguns dos principais comandos do Git:
+
+1. Configuração Inicial:
+git config --global user.name "Seu Nome": Define o nome do usuário globalmente.
+git config --global user.email "seu@email.com": Define o email do usuário globalmente.
+
+2. Criar um Novo Repositório:
+git init: Inicializa um novo repositório Git.
+
+3. Clonar um Repositório Existente:
+git clone <URL do repositório>: Clona um repositório existente para o seu sistema local.
+
+4. Adicionar e Confirmar Mudanças:
+git add <nome do arquivo>: Adiciona alterações ao índice.
+git add .: Adiciona todas as alterações ao índice.
+git commit -m "Mensagem do commit": Confirma as alterações no repositório.
+
+5. Branches:
+git branch: Lista todas as branches no repositório.
+git branch <nome da branch>: Cria uma nova branch.
+git checkout <nome da branch>: Muda para a branch especificada.
+
+6. Atualizar e Mesclar:
+git pull: Atualiza o repositório local com as alterações mais recentes do repositório remoto.
+git merge <nome da branch>: Mescla a branch especificada na branch atual.
+
+7. Atualizar o Repositório Remoto:
+git push: Envia as alterações locais para o repositório remoto.
+
+8. Verificar Status:
+git status: Mostra o status das alterações no seu diretório de trabalho.
+
+9. Visualizar Histórico:
+git log: Mostra o histórico de commits.
+git log --oneline: Mostra o histórico de commits de forma resumida.
+
+10. Desfazer Alterações:
+git reset <nome do arquivo>: Remove o arquivo do índice (não afeta o diretório de trabalho).
+git reset --hard HEAD: Desfaz todas as alterações no diretório de trabalho e no índice.
+
+11. Ignorar Arquivos:
+Criar ou editar um arquivo chamado .gitignore para listar os arquivos a serem ignorados.
+
+Estes são apenas alguns dos comandos básicos do Git. O Git possui muitos outros comandos e opções que podem ser explorados através da documentação oficial ou usando git --help.
